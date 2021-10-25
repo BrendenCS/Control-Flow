@@ -22,5 +22,13 @@ pin = input("Please choose a 4-digit Personal Identification Number: ")
 
 print("\nThank you", first_name + ", we see that you set your PIN to",pin)
 
-print("\nWould you like to make a tranaction though our Automated Teller Machine")
+print("\nWould you like to make a transaction though our Automated Teller Machine")
+ATM = input("Yes or No: ").lower()
 
+if ATM == "yes":
+    print("\n*******************************************************\n")
+
+
+
+else:
+    print("\nHave a wonderful day",first_name,last_name,", please come back and visit soon ;).")
